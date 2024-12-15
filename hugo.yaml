@@ -2,6 +2,8 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Mario Rosell
 theme: PaperMod
+# Make posts be on the "posts" folder inside the content folder
+contentDir: content/posts
 
 # i18n internationalization
 defaultContentLanguage: en
@@ -10,9 +12,18 @@ defaultContentLanguage: en
 paginator:
   perPage: 5
 
+markup:
+  highlight:
+    lineNos: true
+    lineNumbersInTable: true
+    style: doom-one2
+    codeFences: true
+    noClasses: false
+
 params:
   description: My personal blog, here I talk about everything I find interesting.
   author: Mario Rosell
+  showReadingTime: true
   defaultTheme: auto
   showToc: true
   tocopen: false
