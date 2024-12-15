@@ -1,0 +1,37 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Mario Rosell
+theme: PaperMod
+
+# i18n internationalization
+defaultContentLanguage: en
+
+# Parameters
+paginator:
+  perPage: 5
+
+params:
+  description: My personal blog, here I talk about everything I find interesting.
+  author: Mario Rosell
+  defaultTheme: auto
+  showToc: true
+  tocopen: false
+  ShowBreadCrumbs: true
+  UseHugoToc: false
+  comments: true
+  hideFooter: false
+
+profileMode:
+  enabled: true
+  title: Mario Rosell
+  subtitle: Hello!
+  buttons:
+    - name: GitHub
+      url: https://github.com/mariluski23
+
+socialIcons:
+  - name: GitHub
+    url: https://github.com/mariluski23
+
+editPost:
+  repo: https://github.com/mariluski23/mariluski23.github.io
